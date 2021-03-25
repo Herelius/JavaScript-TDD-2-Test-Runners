@@ -1,0 +1,25 @@
+{
+  "name": "javascript-tdd-2-test-runners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capitalizeFirst.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Herelius/JavaScript-TDD-2-Test-Runners.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Herelius/JavaScript-TDD-2-Test-Runners/issues"
+  },
+  "homepage": "https://github.com/Herelius/JavaScript-TDD-2-Test-Runners#readme",
+  "dependencies": {
+    "mocha": "^8.3.2"
+  }
+}
