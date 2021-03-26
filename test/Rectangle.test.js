@@ -1,4 +1,21 @@
 // test/Rectangle.test.js
+const assert = require('assert');
+const Rectangle = require('../Rectangle.js');
+
+// give the test suite a label using describe
+describe('rectangle', () => {
+  // give the test a label using it
+  it('is it a square?', () => {
+    assert.strictEqual(new Rectangle(4, 4).isSquare(), true);
+    assert.strictEqual(new Rectangle(4, 5).isSquare(), false);
+  });
+  it('Area of the rectangle', () => {
+    assert.strictEqual(new Rectangle(13, 7).getArea(), 91);
+  });
+  it('Perimeter of the rectangle', () => {
+    assert.strictEqual(new Rectangle(13, 7).getPerimeter(), 40);
+  });
+});
 
 /*
 // test/capitalizeFirst.test.js

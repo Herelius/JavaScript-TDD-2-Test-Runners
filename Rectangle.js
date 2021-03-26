@@ -7,17 +7,17 @@ class Rectangle {
 
   isSquare() {
     if (this.a === this.b) {
-      return 'This is a square';
+      return true;
     }
-    return 'This is a rectangle';
+    return false;
   }
 
   getArea() {
-    return `Area = ${this.a * this.b}`;
+    return this.a * this.b;
   }
 
   getPerimeter() {
-    return `Perimeter = ${(this.a + this.b) * 2}`;
+    return (this.a + this.b) * 2;
   }
 }
 
